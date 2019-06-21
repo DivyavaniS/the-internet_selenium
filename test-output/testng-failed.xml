@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="website.NewTestDay2">
+        <methods>
+          <include name="verifyEntryAd"/>
+          <include name="verifyFrames"/>
+          <include name="launchBrowser"/>
+          <include name="verifyBrokenImage"/>
+          <include name="verifyFileUpload"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- website.NewTestDay2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
